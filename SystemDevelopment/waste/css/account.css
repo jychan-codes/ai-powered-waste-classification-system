@@ -1,0 +1,27 @@
+/* Custom styles for account.php */
+
+.card {
+   
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+.card-title {
+    color: #4d5d53;
+}
+
+h1{
+    color: black;
+}
+
+h2 {
+    color: #4d5d53;
+}
+
+p {
+    color: #000000; /* Black color */
+}
+
+
+

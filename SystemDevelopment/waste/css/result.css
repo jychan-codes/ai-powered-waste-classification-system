@@ -1,0 +1,97 @@
+body {
+    font-family: 'YourSelectedMonospaceFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333; /* Neutral color */
+    background-color: #f3f3f3;
+   
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    
+}
+
+h3 {
+    font-weight: bold;
+    color:black;
+    font-family: 'YourSelectedMonospaceFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.result-info {
+    margin-top: 20px;
+}
+
+.result-info p {
+    margin: 5px 0;
+    font-family: 'YourSelectedMonospaceFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'YourSelectedMonospaceFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* Container Styles */
+.container {
+    margin-top: 50px;
+}
+
+/* Image Styles */
+#uploadedImage {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #738678;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+
+
+/* Waste Disposal Guidelines Styles */
+#guidelinesContainer {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#iconRow {
+    text-align: center;
+}
+
+.send-to-text {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.recycling-center-link {
+    color: #0066cc; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+}
+
+.modern-button {
+    border: none;
+    border-radius: 20px;
+    padding: 12px 110px;
+    background-color: #F2F3EE;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Add hover effect */
+.modern-button:hover {
+    background-color: #203E32;
+    color: white;
+}

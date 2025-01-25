@@ -1,0 +1,60 @@
+body {
+    
+    background: color #fff;; /* Light grey background */
+    color: #495057;
+    margin: 0;
+    padding-top: 50px; 
+    font-family: 'YourSelectedMonospaceFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color:black;
+    font-family: 'YourSelectedMonospaceFont', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.modern-button {
+    border: none;
+    border-radius: 20px;
+    padding: 12px 200px;
+    background-color:#F2F3EE;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.modern-button2 {
+    border: none;
+    border-radius: 20px;
+    padding: 12px 200px;
+    background-color: #F2F3EE;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    margin: 25px 2px 4px 25px; /* Add margin to the top, right, botton, left */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Add hover effect */
+.modern-button:hover {
+    background-color:  #203E32;
+    color: white;
+}
+
+.modern-button2:hover {
+    background-color:  #203E32;
+    color: white;
+}
+

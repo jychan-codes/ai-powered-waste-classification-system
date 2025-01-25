@@ -1,0 +1,86 @@
+/* Add some styling for the icons */
+.map-icons {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center; /* Center the icons horizontally */
+    z-index: 999; /* Ensure icons are above other elements */
+   
+}
+
+.map-icon-container {
+    position: relative;
+    background-color: #dbe1e6; /* Background color for the circular container */
+    border-radius: 50%; /* Make it a circle */
+    padding: 10px; /* Adjust padding as needed */
+    cursor: pointer;
+    text-align: center; /* Center text */
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    margin: 0 5px; /* Adjust the space between icons */
+
+}
+
+.map-icon-container:hover {
+    background-color: white; /* Change background color on hover */
+}
+
+.map-icon-container img {
+    width: 35px;
+    height: 35px;
+
+}
+
+.icon-text {
+    position: absolute;
+    bottom: -20px; /* Adjust this value to control the distance between the icon and text */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 12px; /* Adjust the font size as needed */
+}
+
+/* Add some space between the icons and the map */
+#map-container {
+    margin-top: 50px; /* Adjust this value based on the space you want */
+}
+
+/* Hide the map container by default */
+#map-container iframe {
+    display: block; /* Display the map initially */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ffcc00; /* Change to the desired hover color */
+}
+
+
+
+
+
+.pop-out-box {
+    position: fixed; /* Set the position to fixed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    top: 0; /* Position the box at the top of the viewport */
+    left: 50%; /* Center the box horizontally */
+    transform: translateX(-50%); /* Adjust to center the box horizontally */
+    opacity: 1; /* Make the box fully opaque */
+}
+
+.pop-out-box ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+
+.map-icon-container:hover .pop-out-box {
+    display: block; /* Show the pop-out box when hovering over the icon */
+   
+}
